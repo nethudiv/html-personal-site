@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    width: 15%;
+    position: absolute;
+    right: 10%;
+}
+
+.bottom-cloud {
+    width: 15%;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 10%;
+}
+
+.mountain-image {
+    width: 30%;
+}
+
+div .titile-text {
+    display: block;
+    margin: 100px 0 100px 0;
+}
+
+h1 {
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 50px;
+}
+
+h3 {
+    color: #66bfbf;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+span {
+    text-decoration: underline;
+}
+/* Hero Section */
+.hero-section {
+    margin: 100px 0;
+    align-items: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #66bfbf;
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 1.5;
+    padding: 30px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+
+}
+
+hr {
+    width: 5%;
+    margin: 100px auto;
+    border: 5px dotted #bad7d7;
+    border-bottom: none;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.web-design-img, .web-development-img {
+    width:250px;
+    margin: 50px auto;
+}
+
+/* Contact Section */
+.contact-section {
+    margin: 100px auto;
+}
+.contact-section h3 {
+    margin-top: 100px;
+}
+
+.contact-text {
+    font-size: 20px;
+    font-style: italic;
+    width: 40%;
+    margin: auto;
+}
+
+.contact-section .btn {
+    font-size: 20px;
+    color: #fff;
+    background-color: #66bfbf;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid #66bfbf;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #66bfbf;
+    padding: 50px 0 20px 0;
+}
+
+a {
+    color:#0b6569;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*Media Quiries */
+
+@media (max-width: 768px) {
+    /* Top Bar */
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
